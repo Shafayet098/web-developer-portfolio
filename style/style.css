@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Shared Style */
+.text-primary {
+    color: rgba(253, 110, 10, 1)
+}
+
+.secondary-bg {
+    background-color: rgba(255, 248, 243, 1);
+    ;
+}
+
+/* Header */
+/* Navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(71, 71, 71, 1);
+    font-size: 20px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: rgba(253, 110, 10, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    padding: 18px 35px;
+    font-size: 20px;
+    border: none;
+}
+
+.banner-greetings {
+    color: rgba(71, 71, 71, 1);
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    color: rgba(24, 24, 24, 1);
+    font-size: 85px;
+}
+
+.banner-profile-pic {
+    width: 584px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+.header {
+    background-image: url("./../images/developer.png"), url("./../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+
+/* Main Section */
+main {
+    max-width: 1140px;
+    margin: 100px auto;
+}
+
+/* About Me */
+.section-title {
+    color: rgba(24, 24, 24, 1);
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    color: rgba(117, 117, 117, 1);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 70px;
+    margin-bottom: 40px;
+}
+
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-item {
+    color: rgba(117, 117, 117, 1);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.item-description {
+    color: rgba(117, 117, 117, 1);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* What I do */
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* A summary of my resume */
+.resume-container {
+    display: flex;
+    gap: 80px;
+}
+
+.resume-column-title {
+    color: rgba(71, 71, 71, 1);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.experience-title {
+    color: rgba(71, 71, 71, 1);
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.experience-sub-title {
+    color: rgba(117, 117, 117, 1);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.experience-description {
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Footer */
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.lets {
+    text-align: left;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 1);
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.message {
+    text-align: left;
+}
